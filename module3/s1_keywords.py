@@ -10,10 +10,10 @@ data_path = "../data/txt/"
 files = os.listdir(data_path)
 for f in sorted(files):
     if f.startswith("Bxl_"):
-        text = open(data_path + f, encoding='latin-1').read()
+        text = open(data_path + f, encoding="latin-1").read()
         keywords = kw_extractor.extract_keywords(text)
         kept = []
-        for score, kw in keywords:
+        for kw, score in keywords:
             words = kw.split()
             if len(words) > 1 and kw not in ignored: # only bigrams and more
                 kept.append(kw)
