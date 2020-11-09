@@ -13,7 +13,15 @@ sw += ["les", "plus", "cette", "fait", "faire", "être", "deux", "comme", "dont"
        "ils", "bien", "sans", "peut", "tous", "après", "ainsi", "donc", "cet", "sous",
        "celle", "entre", "encore", "toutes", "pendant", "moins", "dire", "cela", "non",
        "faut", "trois", "aussi", "dit", "avoir", "doit", "contre", "depuis", "autres",
-       "van", "het", "autre", "jusqu"]
+       "van", "het", "autre", "jusqu", "oktober", "klein", "décembre", "ville",
+       "bruxelles", "conseil communal","mesdames", "messieurs", "bourgmestre", 
+       "commune","communal", "franc", "question", "belge","commission", "très",
+       "rue","francs","ceux","pourrait","belgique", "conseil","collège",
+       "année","assistance","demande","service","cour","proposition","article",
+       "septembre","favorable","grand","concerne","total","personnel","moment",
+       "toute","certain","août","leurs", "peuvent","relative","peu",
+       "également","voir","elles","grande","nombre","celui",
+       "cours","laquelle","née","mar","divers"]
 sw = set(sw)
 
 
